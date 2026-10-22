@@ -1,0 +1,51 @@
+{
+  "name": "dsh-api-model-icons",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Official API provider marks for the DeepSeek Harness composer model selector.",
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-web",
+    "model-selector",
+    "provider-icons"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "NOTICE.md",
+    "THIRD_PARTY_LICENSES.md",
+    "assets/*.svg",
+    "scripts/validate.mjs"
+  ],
+  "scripts": {
+    "test": "node scripts/validate.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-model-selection"
+      ]
+    }
+  }
+}

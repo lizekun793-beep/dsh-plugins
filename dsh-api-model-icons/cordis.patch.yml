@@ -1,0 +1,4 @@
+- insert:
+    - id: api-model-icons
+      name: 'dsh-api-model-icons'
+      config: {}

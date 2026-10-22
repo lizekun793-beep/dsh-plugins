@@ -1,6 +1,6 @@
 # DSH Plugins (lizekun793-beep)
 
-DeepSeek Harness（DSH）插件系列 monorepo：桌宠、聊天背景、生图工具放在同一个仓库里，按子目录安装。
+DeepSeek Harness（DSH）插件系列 monorepo：桌宠、聊天背景、生图、模型 API 图标放在同一个仓库里，按子目录安装。
 
 A series of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugins in one repo — install each plugin by subdirectory path.
 
@@ -11,6 +11,7 @@ A series of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 
 | [`dsh-live2d-pet/`](./dsh-live2d-pet/) | `dsh-live2d-pet` | Live2D 桌宠（Cubism / pixi），状态表情与鼠标跟随。基于 [ankesu/dsh-live2d-pet](https://github.com/ankesu/dsh-live2d-pet) 魔改。 |
 | [`dsh-custom-background/`](./dsh-custom-background/) | `@local/custom-background` | 会话面板自定义背景：图库、外链、裁剪、调暗/模糊。 |
 | [`dsh-image-gen/`](./dsh-image-gen/) | `@local/image-gen` | OpenAI 兼容生图工具，配置写在插件页。 |
+| [`dsh-api-model-icons/`](./dsh-api-model-icons/) | `dsh-api-model-icons` | 模型选择器旁显示 DeepSeek / 千问 / 豆包等 API 提供商官方标志。 |
 
 每个子目录都有完整 README（中英或中文）。
 
@@ -22,6 +23,7 @@ A series of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 
 dsh plugin --profile web add "github:lizekun793-beep/dsh-plugins#main&path:/dsh-live2d-pet" --registry=https://registry.npmmirror.com
 dsh plugin --profile web add "github:lizekun793-beep/dsh-plugins#main&path:/dsh-custom-background" --registry=https://registry.npmmirror.com
 dsh plugin --profile web add "github:lizekun793-beep/dsh-plugins#main&path:/dsh-image-gen" --registry=https://registry.npmmirror.com
+dsh plugin --profile web add "github:lizekun793-beep/dsh-plugins#main&path:/dsh-api-model-icons" --registry=https://registry.npmmirror.com
 ```
 
 装完后：
@@ -33,6 +35,7 @@ dsh plugin --profile web add "github:lizekun793-beep/dsh-plugins#main&path:/dsh-
 
 - `custom-background` / `image-gen` 的 package name 仍是 `@local/custom-background` 与 `@local/image-gen`——`bundles` 必须写这两个名字。
 - Live2D 的 package name 是 `dsh-live2d-pet`。上游原作者：[ankesu](https://github.com/ankesu)。
+- 模型 API 图标的 package name 是 `dsh-api-model-icons`。
 
 ### Manager GUI
 
