@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Image Generation (API)",
+    "description": "Generate images from text prompts through any OpenAI-compatible images endpoint; set the base URL, model, and API key on this bundle's row page under Plugins."
+  }
+}

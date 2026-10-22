@@ -1,0 +1,4 @@
+- insert:
+    - id: image-gen
+      name: '@local/image-gen'
+      config: {}

@@ -1,0 +1,19 @@
+# Dependencies and local build output
+node_modules/
+dist/
+*.tgz
+
+# Generated images belong to a session workspace, not to this repository
+generated-images/
+
+# Logs and scratch files
+*.log
+*.bak
+*.bak.*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*

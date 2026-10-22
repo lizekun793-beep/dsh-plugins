@@ -1,0 +1,26 @@
+# Dependencies / build
+node_modules/
+dist/
+*.tgz
+*.map
+
+# Secrets & env
+.env
+.env.*
+.npmrc
+
+# Logs & scratch
+*.log
+*.bak
+*.bak.*
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Runtime state belonging to a DSH profile / session, not this repo
+custom-background.json
+custom-background.images/
+custom-background.json.debug.log
+generated-images/

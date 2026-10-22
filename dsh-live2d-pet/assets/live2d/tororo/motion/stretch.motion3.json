@@ -1,0 +1,137 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 3,
+		"Fps": 30,
+		"Loop": false,
+		"AreBeziersRestricted": false,
+		"FadeInTime": 0.25,
+		"FadeOutTime": 0.35,
+		"CurveCount": 7,
+		"TotalSegmentCount": 21,
+		"TotalPointCount": 28,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_BODY_ANGLE_Y",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.6,
+				-8,
+				0,
+				1.8,
+				-8,
+				0,
+				3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_ANGLE_Y",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.5,
+				-10,
+				0,
+				1.8,
+				-8,
+				0,
+				3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_BODY",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.7,
+				0.4,
+				0,
+				2,
+				0.4,
+				0,
+				3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAND_L",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.6,
+				0.5,
+				0,
+				2,
+				0.5,
+				0,
+				3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_HAND_R",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.6,
+				0.5,
+				0,
+				2,
+				0.5,
+				0,
+				3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_TAIL",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.5,
+				0.3,
+				0,
+				2,
+				-0.2,
+				0,
+				3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "PARAM_BREATH",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.8,
+				0.6,
+				0,
+				2,
+				0.4,
+				0,
+				3,
+				0
+			]
+		}
+	]
+}

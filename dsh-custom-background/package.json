@@ -1,0 +1,50 @@
+{
+  "name": "@local/custom-background",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Server-side picture gallery and wallpaper settings for the DeepSeek Harness Web UI.",
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "bundle",
+    "background",
+    "wallpaper",
+    "cordis"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "author": "lizekun793-beep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lizekun793-beep/dsh-plugins.git",
+    "directory": "dsh-custom-background"
+  }
+}

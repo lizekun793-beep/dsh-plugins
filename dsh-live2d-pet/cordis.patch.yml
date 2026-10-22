@@ -1,0 +1,16 @@
+# dsh-live2d-pet bundle patch — inserts its plugin row into the web plugin roster.
+# NOTE: do NOT put `enabled: false` here. Cordis/DSH treat that as "plugin off"
+# in several UIs and some apply() guards; pet visibility is controlled via
+# user-config ($DSH_HOME/dsh-live2d-pet/config.json) and defaults in code.
+- insert:
+    - id: live2d-pet
+      name: dsh-live2d-pet
+      config:
+        model: tororo/tororo.model3.json
+        size: 220
+        right: 24
+        bottom: 100
+        offsetX: 0
+        offsetY: 0
+        fidgetSec: 7
+        phaseMotions: true

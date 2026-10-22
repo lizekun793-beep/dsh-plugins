@@ -1,0 +1,4 @@
+- insert:
+    - id: custom-background
+      name: '@local/custom-background'
+      config: {}
